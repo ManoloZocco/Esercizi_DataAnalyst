@@ -1,0 +1,61 @@
+Esercizi Data Analyst 31/01/2023
+Esempio di 3 dataset strutturati
+
+Car Evaluation Data Set: https://archive.ics.uci.edu/ml/datasets/car+evaluation
+
+	Attributi: doors, persons, safety.
+
+	Identificativi:
+		Doors: 2,3,4,5 more.
+		Persons: 2,4,5, more.
+		Safety: Low, med, high.
+
+
+Student Alcohol Consumption Data Set: https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+
+	Attributi: school, sex, age, address.
+
+	Identificativi:
+		School: GP (Gabriel Pereira), MS (Mousinho da Silveira)
+		Sex: student's sex (binary: 'F' - female or 'M' - male)
+		Age: student's age (numeric: from 15 to 22)
+		Address: student's home address type (binary: 'U' - urban or 'R' - rural)
+		
+	
+The Last Of Us Tweets Data Set: https://www.kaggle.com/datasets/ulisesmontoyacanales/the-last-of-us-tweets
+
+	Attributi: id, author_id, text, created_at.
+
+	Identificativi:
+		Id: tweet id
+		author_id: author twtter id
+		Text: tweet
+		created_at: date the tweet was created on
+	
+
+
+Esempio di 2 Data Set non strutturati:
+
+Dataset di file multimediali (Immagini, video, audio)
+
+	Possibili attributi: Peso in MB, Durata (video e audio), Risoluzione (video), Profondità colore (immagini)
+
+	Possibili identificativi:
+		Peso (range MB): 0,1-1; 2-5; 6-10.
+		Durata (range ss) 1-60; 61-120; 121-240.
+		Risoluzione (p): 144, 320, 740, 1080.
+		Profondità colore (bpp): 1,2,4,8,16,32. 
+	
+
+Dataset di articoli in vendita in una libreria:
+
+	Possibili attributi: Libri, riviste, giornali.
+
+	Possibili identificativi:
+		Casa editrice
+	Testata giornalistica:
+		Titolo
+		Autore(i)
+		Numero Pagine
+		Genere letterario
+		Prezzo
